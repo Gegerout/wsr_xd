@@ -1,0 +1,32 @@
+name: wsr_xd
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  flutter_osm_plugin: ^0.55.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.18
+
+flutter_native_splash:
+  android: true
+  background_image: assets/images/splash_image.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
